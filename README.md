@@ -32,11 +32,9 @@ $ git clone https://github.com/teresuke/kadai3.git
 $ cd kadai3
 ```
 
-## 必要なソフトウェア
+## 動作確認済み環境
 * Python
   * テスト済み: 3.7〜3.10
-
-## テスト環境
 * Ubuntu 20.04
 
 ## ライセンス表示
