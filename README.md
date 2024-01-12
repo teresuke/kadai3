@@ -21,9 +21,7 @@
 
 ## インストール方法
 
-以下を順に入力してください.
-
-クローンしてからディレクトリに移動してコマンドを実行する.
+以下のコマンドを入力する.
 ```
 $ git clone https://github.com/teresuke/kadai3.git
 $ cd kadai3
