@@ -4,9 +4,13 @@
 import random
 
 def main():
+    short = int(input())
     amount = int(input())
 
-    answer = random.randint(1,amount)
+    if short > amount:
+        return
+
+    answer = random.randint(short,amount)
     print(f"{answer}")
 
 if __name__ == "__main__":
