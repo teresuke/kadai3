@@ -3,33 +3,7 @@
 ## SPDX-License-Identifier: BSD-3-Clause
 
 
-import sys
-
-s = 0
-t = 1
-
-a=3
-z=1
-m = 0
-n = 1
-for y in sys.stdin:
-    try:
-        s=s+float(y)
-        t=t*float(y)
-    except:
-        s=s+int(y)
-        t=t*int(y)
-
-for l in range(z,a+1):
-    try:
-            m=m+float(l)
-            n=n*float(l)
-    except:
-        m=m+int(l)
-        n=n+int(l)
-
-        print(e)
-        sys.exit(1)
-#print(s,t)
-print(a,s-m+a,t/m*a)
-print(a+1,s-m,t/n)
+weight = float(input('kg='))
+height = float(input('cm=')) / 100
+bmi = (weight / (height ** 2))
+print(bmi)
