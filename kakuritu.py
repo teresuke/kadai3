@@ -11,7 +11,7 @@ def main():
         return
 
     answer = random.randint(min1,max1)
-    print(f"{answer}")
+    print(answer)
 
 if __name__ == "__main__":
     main()
