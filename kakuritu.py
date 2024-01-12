@@ -4,13 +4,13 @@
 import random
 
 def main():
-    short = int(input())
-    amount = int(input())
+    min1 = int(input())
+    max1 = int(input())
 
-    if short > amount:
+    if min1 > max1:
         return
 
-    answer = random.randint(short,amount)
+    answer = random.randint(min1,max1)
     print(f"{answer}")
 
 if __name__ == "__main__":
