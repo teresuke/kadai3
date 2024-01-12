@@ -10,8 +10,6 @@ ng (){
 	res=0
 
 	### I/O TEST ###
-	#out=$(seq 5 | ./plus_stdin)
-
 	out=$(./kakuritu.py)
 	[ "${out}" = "5" ] 
 	[ "15" ] 
