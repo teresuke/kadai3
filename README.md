@@ -1,14 +1,21 @@
 # kadai3
 よろしくお願いします
 
-# ru-rettoコマンド
+# kakurituコマンド
 
 ![test](https://github.com/teresuke/kadai3/actions/workflows/test.yml/badge.svg)
+こちらのプログラムは1から選んだ数字の中の範囲で数字をランダムに出力できます。
+
+# 使い方
+  ./kakuritu.pyと実行したら1からその範囲までの数字を選びます。そうしたら範囲内の数字が出てきます。
+
+
 
 ## 実行例
-
 ```
-
+./kakuritu.py
+3
+1
 ```
 
 ## リポジトリの使用方法
@@ -17,7 +24,7 @@
 
 クローンしてからディレクトリに移動してコマンドを実行する。
 ```
-$ git clone 
+$ git clone https://github.com/teresuke/kadai3.git
 $ cd kadai3
 ```
 
