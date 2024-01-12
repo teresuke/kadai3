@@ -38,7 +38,8 @@ $ cd kadai3
   * 参考文献➀
   中島省吾「知識ゼロでも必ずわかる！　ビジネスPython　超入門」　2019年6月10日　第１版第１刷発行
 
-  * このソフトウェアパッケージは3条項BSDライセンスの下、再頒布および使用が許可されます。
+  * このソフトウェアパッケージは3条項BSDライセンスの下、再頒布および使用が許可されます.
   * このパッケージのコードは、下記のスライド (CC-BY- 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです.
-  *  (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    * (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+
   * © 2024 Shunsuke Otani
