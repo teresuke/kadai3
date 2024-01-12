@@ -12,9 +12,9 @@ ng (){
 	### I/O TEST ###
 	#out=$(seq 5 | ./plus_stdin)
 
-	out=$(seq 5 | ./plus)
-	[ "${out}" = "3 12.0 60.0" ] 
-	[ "4 9.0 20.0" ] || ng ${LINENO}
+	out=$(./kakuritu.py)
+	[ "${out}" = "3" ] 
+	[ "1" ] || ng ${LINENO}
 
 	[ "$res" = 0 ] && echo OK
 	exit $res

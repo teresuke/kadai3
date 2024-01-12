@@ -1,9 +1,0 @@
-#!/usr/bin/python3
-## SPDX=FileCopyrightText: 2023 Shunsuke Otani
-## SPDX-License-Identifier: BSD-3-Clause
-
-
-weight = float(input('kg='))
-height = float(input('cm=')) / 100
-bmi = (weight / (height ** 2))
-print(bmi)
