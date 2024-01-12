@@ -1,5 +1,5 @@
 #!/bin/bash -xv
-# SPDX=FileCopyrightText: 2023 Shunsuke Otani
+# SPDX=FileCopyrightText: 2024 Shunsuke Otani
 # SPDX-Licecse-Identifier: BSD-3-Clause
 
 ng (){
@@ -13,8 +13,9 @@ ng (){
 	#out=$(seq 5 | ./plus_stdin)
 
 	out=$(./kakuritu.py)
-	[ "${out}" = "3" ] 
-	[ "1" ] || ng ${LINENO}
+	[ "${out}" = "5" ] 
+	[ "15" ] 
+	[ "13" ] || ng ${LINENO}
 
 	[ "$res" = 0 ] && echo OK
 	exit $res
